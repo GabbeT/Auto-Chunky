@@ -21,4 +21,4 @@ If you want to compile the mod yourself, you will need Java 21 installed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/GabbeT/Auto-Chunky.git
+   git clone [https://github.com/GabbeT/Auto-Chunky.git](https://github.com/GabbeT/Auto-Chunky.git)
