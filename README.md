@@ -10,12 +10,13 @@ When running a Minecraft server, pre-generating the world is great, but it can c
 - **Auto-Resume:** Starts a 2-minute countdown when the last player disconnects. If the server remains empty, it executes `/chunky continue`.
 - **Admin Commands:** Use `/autochunky toggle` to turn the automation ON/OFF, and `/autochunky status` to check its current state (Requires OP/Permission Level 2).
 
-## Requirements
+## Requirements & Recommended Setup
 - Minecraft 1.21.1
 - Fabric Loader & Fabric API
 - [Chunky](https://modrinth.com/plugin/chunky) (Server-side)
+- **Tip:** Set `continueOnRestart` to `true` in your Chunky config. This makes Chunky start automatically with the server, letting Auto Chunky handle the pausing when someone joins.
 
-## How to build from source
+## 🛠️ How to build from source
 If you want to compile the mod yourself, you will need Java 21 installed.
 
 1. Clone the repository:
