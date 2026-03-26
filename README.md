@@ -12,11 +12,11 @@ When running a Minecraft server, pre-generating the world is great, but it can c
 
 ## Requirements & Recommended Setup
 - Minecraft 1.21.1
-- Fabric Loader & Fabric API
+- Fabric Loader **0.18.5+** & Fabric API
 - [Chunky](https://modrinth.com/plugin/chunky) (Server-side)
 - **Tip:** Set `continueOnRestart` to `true` in your Chunky config. This makes Chunky start automatically with the server, letting Auto Chunky handle the pausing when someone joins.
 
-## 🛠️ How to build from source
+## How to build from source
 If you want to compile the mod yourself, you will need Java 21 installed.
 
 1. Clone the repository:
